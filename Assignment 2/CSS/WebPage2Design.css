@@ -1,0 +1,60 @@
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: 2px solid;
+}
+
+.background {
+    background-color: indianred;
+}
+
+.shift {
+    position: relative;
+    left: 425px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: darkgrey;
+}
+
+.alignment {
+    position: relative;
+    left: 147px;
+}
+
+.change-password {
+    position: relative;
+    left: 180px;
+}
+
+.shift2 {
+    position: relative;
+    left: 330px;
+}
+
+.shift3 {
+    position: relative;
+    left: 210px;
+}
+
+.align-right {
+    position: relative;
+    left: 600px;
+}
+
+.right {
+    position: relative;
+    left: 118px;
+}
+
+.textareabgcolor:focus {
+    background-color: gray;
+}

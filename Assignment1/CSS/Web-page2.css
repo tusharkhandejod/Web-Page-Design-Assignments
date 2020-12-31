@@ -1,0 +1,114 @@
+html {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: 2px solid;
+}
+
+.text-align {
+    text-align: center
+}
+
+.label-background-align {
+    text-align: center;
+    background-color: darkgrey;
+    position: relative;
+    left: 295px;
+}
+
+.label {
+    min-width: 140px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    left: 245px;
+}
+
+.shift {
+    position: relative;
+    left: 275px;
+}
+
+.button-shift {
+    position: relative;
+    left: 275px;
+}
+
+.upper {
+    background-color: darkgrey;
+}
+
+.change-password {
+    position: relative;
+    left: 450px;
+}
+
+.text {
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+}
+
+.input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    height: 250px;
+    width: 200px;
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    justify-content: center;
+    height: 170px;
+    width: 200px;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card .text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
